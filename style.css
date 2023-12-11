@@ -1,0 +1,50 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-image: url("https://logam.in/cdn/shop/files/IMG_6704new_800x.jpg?v=1691585017");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family: font-family: 'Roboto', sans-serif;
+    color: #eee; /* Green color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#game-container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#scorecard {
+    background-color: rgba(240, 240, 240, 0.7); 
+    padding: 10px;
+    
+
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    padding: 10px;
+    padding-left: 70px;
+    border-radius: 10px; 
+    box-shadow:auto;
+    
+    
+}
+
+.cell {
+    width: 80px;
+    height: 80px;
+    border: 3px solid #000000;
+    font-size: 2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cell:hover {
+    background-color: #eee;
+}
